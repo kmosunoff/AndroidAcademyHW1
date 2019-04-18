@@ -5,4 +5,10 @@
     <string name="author">Артур Василов</string>
     <string name="article">Многие Android-разработчики знают стандартные методы профилирования приложений, инструменты для отладки и улучшения производительности. Однако для случая больших приложений этого не всегда достаточно. Мы поговорим о нестандартных способах ускорения работы приложения, затронем самые разные аспекты, как вопросы UI, так и инструментов и околосерверных вещей. Я надеюсь, что этот доклад заставит вас посмотреть на вопросы производительности по-новому и подумать о том, что вы можете сделать в своем приложении.</string>
     <string name="all_articles">Все доклады</string>
+    <string name="position">Senior Android Developer at Яндекс</string>
+    <string name="location">St. Petersburg, Russia</string>
+    <string name="description_text">Android Developer with over five years of professional experience and love of creating extremely high-quality apps with perfect UI / UX and optimizations. Working at Yandex. GDG Leader.</string>
+    <string name="room">Room 1</string>
+    <string name="time">15:25</string>
+    <string name="date">27 November</string>
 </resources>
