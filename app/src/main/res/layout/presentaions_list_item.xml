@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/speakerPhoto"
+        android:layout_width="@dimen/small_photo_size"
+        android:layout_height="@dimen/small_photo_size"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:src="@drawable/photo"
+        app:civ_border_width="10dp"
+        app:civ_border_color="#00000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/flagImage"
+        android:layout_width="@dimen/small_flag_size"
+        android:layout_height="@dimen/small_flag_size"
+        android:src="@drawable/flag"
+        android:layout_margin="@dimen/default_margin"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#00000000"
+        app:layout_constraintBottom_toBottomOf="@id/speakerPhoto"
+        app:layout_constraintEnd_toEndOf="@id/speakerPhoto"/>
+
+    <TextView
+        android:id="@+id/speakerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/speaker"
+        android:textSize="@dimen/title_text_size"
+        app:layout_constraintStart_toEndOf="@id/speakerPhoto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/presentationName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/presentationName"
+        android:textSize="@dimen/subtitle_text_size"
+        app:layout_constraintTop_toBottomOf="@id/speakerName"
+        app:layout_constraintStart_toStartOf="@id/speakerName"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
